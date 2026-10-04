@@ -3,10 +3,12 @@ Fast &amp; simple systemfetch tool written in Python.
 ## WINDOWS ONLY TOOL!
 
 ## Requirements:
++ Python
 + termcolor
 + psutil
 + colorama
 ### Links:
++ Python: https://www.python.org/downloads/
 + termcolor: https://pypi.org/project/termcolor/
 + psutil: https://pypi.org/project/psutil/
 + colorama: https://pypi.org/project/colorama/
