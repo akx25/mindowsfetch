@@ -6,6 +6,6 @@ Fast &amp; simple systemfetch tool written in Python.
 + psutil
 + colorama
 ### Links:
-termcolor: https://pypi.org/project/termcolor/
-psutil: https://pypi.org/project/psutil/
-colorama: https://pypi.org/project/colorama/
++ termcolor: https://pypi.org/project/termcolor/
++ psutil: https://pypi.org/project/psutil/
++ colorama: https://pypi.org/project/colorama/
