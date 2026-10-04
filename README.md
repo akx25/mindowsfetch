@@ -1,7 +1,7 @@
 # mindowsfetch
 Fast &amp; simple systemfetch tool written in Python.
 
-## Requirments
+## Requirements
 + termcolor
 + psutil
 + colorama
