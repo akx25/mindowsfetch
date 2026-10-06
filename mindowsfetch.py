@@ -113,24 +113,27 @@ def get_ip_address_country():
 
 #logo + color
 logo = [
-    (termcolor.colored("┌──────┬──────┐", "cyan")),
-    (termcolor.colored("│      │      │", "cyan")),
-    (termcolor.colored("│      │      │", "cyan")),
-    (termcolor.colored("├──────┼──────┤", "cyan")),
-    (termcolor.colored("│      │      │", "cyan")),
-    (termcolor.colored("│      │      │", "cyan")),
-    (termcolor.colored("└──────┴──────┘", "cyan")),
+    (termcolor.colored("       _.-;;-._ ", "cyan")),
+    (termcolor.colored("'-..-'|   ||   |", "cyan")),
+    (termcolor.colored("'-..-'|_.-;;-._|", "cyan")),
+    (termcolor.colored("'-..-'|   ||   |", "cyan")),
+    (termcolor.colored("'-..-'|_.-''-._|", "cyan")),
+    (termcolor.colored("                ", "cyan")),
+    (termcolor.colored("                ", "cyan")),
+    
 ]
 
 #info thinngs
+from termcolor import colored
+
 info = [
-    f"Host:   {get_host()}",
-    f"OS:     {get_os()}",
-    f"CPU:    {get_cpu()}",
-    f"GPU:    {get_gpu()}",
-    f"Memory: {get_memory()}",
-    f"Disk:   {get_disk()}",
-    f"IP: {get_ip_address()} {get_ip_address_country()}",
+    f"{colored('Host:', 'cyan')}   {get_host()}",
+    f"{colored('OS:', 'cyan')}     {get_os()}",
+    f"{colored('CPU:', 'cyan')}    {get_cpu()}",
+    f"{colored('GPU:', 'cyan')}    {get_gpu()}",
+    f"{colored('Memory:', 'cyan')} {get_memory()}",
+    f"{colored('Disk:', 'cyan')}   {get_disk()}",
+    f"{colored('IP:', 'cyan')}     {get_ip_address()} {get_ip_address_country()}",
 ]
 
 #logo and info placement
